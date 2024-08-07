@@ -9,7 +9,7 @@ AdvancedGridProcessor is a Python library designed for processing geospatial pol
 - [Overview](#overview)
 - [Installation](#installation)
 - [Classes](#classes)
-  - [PolygonNodeRemover](#polygonnoderemover)
+  - [GridNodeRemover](#gridnoderemover)
   - [PolygonSplitter](#polygonsplitter)
 
 ## Overview
@@ -22,18 +22,18 @@ Clone the repository and install the required packages:
 
 ```bash
 git clone https://github.com/Khadka-Bishal/Advanced-Grid-Processor.git
-cd GeoPolygonToolkit
+cd Advanced-Grid-Processor
 pip install -r requirements.txt
 
 ```
 
 ## Classes
 
-### PolygonNodeRemover
+### GridNodeRemover
 
-The `PolygonNodeRemover` class removes excess nodes from polygons.
+The `GridNodeRemover` class removes excess nodes from polygons/grid faces.
 
-- **Initialization**: `PolygonNodeRemover(shapefile_path, epsg)`
+- **Initialization**: `GridNodeRemover(shapefile_path, epsg)`
 - **Methods**:
   - `load_and_convert_shapefile()`: Loads and converts the shapefile to the specified EPSG code.
   - `nodes_to_keep_and_remove()`: Identifies nodes to keep and remove.
@@ -44,7 +44,7 @@ The `PolygonNodeRemover` class removes excess nodes from polygons.
 
 ### PolygonSplitter
 
-The `PolygonSplitter` class splits polygons with more than a specified number of nodes.
+The `PolygonSplitter` class splits polygons/grid faces with more than a specified number of nodes.
 
 - **Initialization**: `PolygonSplitter(shapefile_path, epsg, num_nodes)`
 - **Methods**:
