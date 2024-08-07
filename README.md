@@ -11,6 +11,7 @@ AdvancedGridProcessor is a Python library designed for processing geospatial pol
 - [Classes](#classes)
   - [GridNodeRemover](#gridnoderemover)
   - [PolygonSplitter](#polygonsplitter)
+- [Examples](#examples)
 
 ## Overview
 
@@ -54,3 +55,20 @@ The `PolygonSplitter` class splits polygons/grid faces with more than a specifie
   - `perform_splitting(geo1)`: Splits polygons with excess nodes.
   - `plot_polygon_splits(xugrid1, xugrid_final)`: Plots the split polygons.
   - `save_split_grid(xugrid_final, filename)`: Saves the split grid to a NetCDF file.
+ 
+## Examples
+
+### Example 1: Excess Polygons with Multiple Nodes
+![2](https://github.com/user-attachments/assets/4ad6b395-9280-42fe-895c-f5c0361f5729)
+
+
+
+### Example 2: Polygons Fixed Using Code
+![1](https://github.com/user-attachments/assets/30d127d8-af21-49de-9a71-b26fc46a4204)
+
+
+### Example 3: Polygons with More Than 6 Nodes Split
+
+![3](https://github.com/user-attachments/assets/611bc75f-f3c4-4d4e-9cb6-e664473efa1b)
+
+
