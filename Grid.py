@@ -6,14 +6,14 @@ import xugrid as xu
 import shapely
 import matplotlib.pyplot as plt
 
-class PolygonProcessor:
+class GridNodeRemover:
     """
     Class to process polygons by removing excess nodes.
     """
 
     def __init__(self, shapefile_path, epsg):
         """
-        Initialize the PolygonProcessor with a shapefile and EPSG code.
+        Initialize the GridNodeRemover with a shapefile and EPSG code.
 
         Parameters:
         shapefile_path (str): Path to the shapefile.
