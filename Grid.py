@@ -339,8 +339,8 @@ class PolygonSplitter:
         xugrid_final.ugrid.to_netcdf(filename)
 
 # Example usage for Section 1
-shapefile_path = "Test2DFlowAreaMesh_Polygon.shp"
-processor = PolygonProcessor(shapefile_path, epsg=32618)
+shapefile_path = "test.shp"
+processor = GridNodeRemover(shapefile_path, epsg=32618)
 
 keept, remt = processor.nodes_to_keep_and_remove()
 processor.plot_keep_remove(keept, remt)
