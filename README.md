@@ -75,4 +75,4 @@ The `PolygonSplitter` class splits polygons/grid faces with more than a specifie
 
 
 ## Contributor
-- Professor Alejandra Ortiz, Clby College
+- Professor Alejandra Ortiz, Colby College
