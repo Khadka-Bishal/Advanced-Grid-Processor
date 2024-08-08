@@ -12,6 +12,8 @@ AdvancedGridProcessor is a Python library designed for processing geospatial pol
   - [GridNodeRemover](#gridnoderemover)
   - [PolygonSplitter](#polygonsplitter)
 - [Examples](#examples)
+- [Contributor](#contributor)
+
 
 ## Overview
 
@@ -72,3 +74,5 @@ The `PolygonSplitter` class splits polygons/grid faces with more than a specifie
 ![3](https://github.com/user-attachments/assets/611bc75f-f3c4-4d4e-9cb6-e664473efa1b)
 
 
+## Contributor
+- Professor Alejandra Ortiz, Clby College
